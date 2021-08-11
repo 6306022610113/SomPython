@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return '<h1>Hello lalana RUK-COM! is Great Cloud Services</h1>'
+    return '<h1>Hello Lalana RUK-COM! is Great Cloud Services</h1>'
 
 
 @app.route('/home',methods=['GET','POST'])
